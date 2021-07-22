@@ -1,6 +1,6 @@
 # Process data using Synapse Spark Pools and store them in Azure SQL Database
 
-## outline
+## Outline
 
 - Infra setup using Terraform. 
 - Use the program to generate CSV data
@@ -24,7 +24,7 @@ git clone https://github.com/abhirockzz/synapse-spark-sqldb
 cd terraform_infra
 ```
 
-In `main_tf` file, replace the component names for Synapse workspace etc.
+In `main.tf` file, replace the component names for Synapse workspace etc.
 
 Start off:
 
